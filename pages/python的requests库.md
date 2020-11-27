@@ -16,3 +16,4 @@ title: python的requests库
 #### r.encoding # 当前的编码
 #### r.encoding = 'utf-8' 设置编码
 #### r.text # 以encoding解析返回的内容
+#### r.content # 以字节形式返回
