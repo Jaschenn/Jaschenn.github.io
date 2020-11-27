@@ -29,6 +29,6 @@ cookie = {'k':'v'}
 ```
 ###
 ```
-r = request.get(url, header = header, cookie = cookie)
+r=request.get(url, header = header, cookie = cookie)
 ```
 ###
