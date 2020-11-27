@@ -23,7 +23,7 @@ title: python的requests库
 ##### `r.json()`  内置的JSON解码器，返回一个json形式，前提是返回的内容是json格式，否则会抱错误
 ## 定制header和cookie
 ###
-```
+```python
 header={'user-agent':'my-app/0.0.1'}
 cookie = {'k':'v'}
 ```
