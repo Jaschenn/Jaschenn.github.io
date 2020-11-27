@@ -9,9 +9,9 @@ title: python的requests库
 :later: 1606455312042
 :END:
 ## `import requests`
-## ## 发起请求
-## `r = requests.get(url)`
-## `r = requests.get(url=url, params = dict)`, 其中dict是一个python的字典类型
+## 发起请求
+### `r = requests.get(url)`
+### `r = requests.get(url=url, params = dict)`, 其中dict是一个python的字典类型
 ### 响应的内容：
 #### `r.encoding` # 当前的编码
 #### `r.encoding = 'utf-8'` 设置编码
@@ -19,8 +19,8 @@ title: python的requests库
 #### `r.content` # 以字节形式返回
 #### `r.status_code` # 响应状态码
 #### `r.ok` # 查看是否登陆成功
-### 特殊的方法
-#### `r.json()`  内置的JSON解码器，返回一个json形式，前提是返回的内容是json格式，否则会抱错误
+#### 特殊的方法
+##### `r.json()`  内置的JSON解码器，返回一个json形式，前提是返回的内容是json格式，否则会抱错误
 ## 定制header和cookie
 ###
 ```
