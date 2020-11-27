@@ -24,7 +24,7 @@ title: python的requests库
 ## 定制header和cookie
 ###
 ```
- header={'user-agent':'my-app/0.0.1'}
+header={'user-agent':'my-app/0.0.1'}
 cookie = {'k':'v'}
 ```
 ###
