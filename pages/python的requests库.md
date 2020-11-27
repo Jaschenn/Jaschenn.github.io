@@ -40,4 +40,3 @@ s.headers = {'k':'v'}
 r = s.get('url')
 r1 = s.get('url1')
  ```
-###
