@@ -28,3 +28,7 @@ header={'user-agent':'my-app/0.0.1'}
 cookie = {'k':'v'}
 ```
 ###
+```
+r = request.get(url, header = header, cookie = cookie)
+```
+###
