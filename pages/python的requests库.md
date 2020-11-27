@@ -31,4 +31,5 @@ cookie = {'k':'v'}
 ```
 r=request.get(url, header = header, cookie = cookie)
 ```
+## ## 使用session
 ###
