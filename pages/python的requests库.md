@@ -17,3 +17,8 @@ title: python的requests库
 #### `r.encoding = 'utf-8'` 设置编码
 #### `r.text` # 以encoding解析返回的内容
 #### `r.content` # 以字节形式返回
+#### `r.status_code` # 响应状态码
+#### `r.ok` # 查看是否登陆成功
+### 特殊的方法
+#### `r.json()`  内置的JSON解码器，返回一个json形式，前提是返回的内容是json格式
+####
