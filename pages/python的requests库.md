@@ -2,11 +2,11 @@
 title: python的requests库
 ---
 
-## DONE 学习python的requests模块，尝试向飞书中通过api写入内容。
+## NOW 学习python的requests模块，尝试向飞书中通过api写入内容。
 :PROPERTIES:
 :todo: 1606454996926
 :done: 1606455311056
-:later: 1606455019022
+:later: 1606455312042
 :END:
 ## `import requests`
 ## ## 发起请求
