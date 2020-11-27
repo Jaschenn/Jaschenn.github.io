@@ -20,5 +20,7 @@ title: python的requests库
 #### `r.status_code` # 响应状态码
 #### `r.ok` # 查看是否登陆成功
 ### 特殊的方法
-#### `r.json()`  内置的JSON解码器，返回一个json形式，前提是返回的内容是json格式
-####
+#### `r.json()`  内置的JSON解码器，返回一个json形式，前提是返回的内容是json格式，否则会抱错误
+## 定制header和cookie
+### `header={'user-agent':'my-app/0.0.1'}`
+### `cookie`
