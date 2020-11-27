@@ -13,6 +13,6 @@ title: python的requests库
 ## `r = requests.get(url)`
 ## `r = requests.get(url=url, params = dict)`, 其中dict是一个python的字典类型
 ### 响应的内容：
-### r.encoding # 当前的编码
-### r.encoding = 'utf-8' 设置编码
-###
+#### r.encoding # 当前的编码
+#### r.encoding = 'utf-8' 设置编码
+#### r.text # 以encoding解析返回的内容
