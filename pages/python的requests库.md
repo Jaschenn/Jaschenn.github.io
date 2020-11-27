@@ -32,10 +32,12 @@ cookie = {'k':'v'}
 r=request.get(url, header = header, cookie = cookie)
 ```
 ## ## 使用session
-### `
+###
+```python
 r = requests.Session()
 s.auth = ('auth', 'pwd')
 s.headers = {'k':'v'}
 r = s.get('url')
 r1 = s.get('url1')
- `
+ ```
+###
