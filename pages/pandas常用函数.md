@@ -6,8 +6,7 @@ title: pandas常用函数
 注意1：pandas本身包含很多函数pandas.method(obj)，通常简写为pd.method(df)，df表示待处理“对象”（最常见的是Series和DataFrame对象）；而pandas产生的“对象”也包含自己的方法，通常以df.method()形式调用。部分函数和方法实现的是完全相同的功能，因此两种方法都可使用，实际上前者是“函数式编程”，后者是“面向对象编程”。例如判断一个DataFrame对象df是否含有null值，既可以用pd.isnull(df)也可以用df.isnull()。
 注意2：pandas为了保护源数据，对DataFrame对象的操作一般都不会更改源数据，除非在函数中加上“inplace=True”，该语句在下面的大部分方法和函数中都有。
 注意3：df.method()表示对整个DataFrame进行操作；而df[['col1','col2',…]].method()：表示对指定列进行相应的操作。通常前者返回针对整个DataFrame的结果，而后者返回指针对相应列的结果。下面都以df.method()形式描述各种方法，对应方法换成df[['col1','col2',…]].method()就是对指定列的操作。但需要注意，某些方法并不适用于Dataframe操作，而某些反复也只针对列操作，根据实际情况而定。
-
-导入包
+## 导入包
 
 import pandas as pd
 
