@@ -25,7 +25,7 @@ cookie = {'k':'v'}
 ```python
 r=request.get(url, header = header, cookie = cookie)
 ```
-## ## 使用session
+## 使用session
 ###
 ```python
 r = requests.Session()
